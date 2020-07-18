@@ -20,12 +20,14 @@ ReactDOM.render(
         <h1 contentEditable="true" className="heading" >{`Welcome ${fname} ${lname}`}</h1>
         <p>today date is : {d}</p>
         <p>current time is : {t}</p>
-        <img className="img" src={pic1} alt="randomimage"/>
-        <img className="img" src={pic2} alt="randomimage"/>
+        <div className="img">
+        <img src={pic1} alt="randomimage"/>
+        <img src={pic2} alt="randomimage"/>
         <a href={link} target="_blank" rel="">
-            <img className="img" src={pic3} alt="randomimage"/>
+            <img src={pic3} alt="randomimage"/>
         </a>
-        <img className="img" src={pic4} alt="randomimage"/>
+        <img  src={pic4} alt="randomimage"/>
+        </div>
 
     </>,
     document.getElementById('root')
