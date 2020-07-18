@@ -17,15 +17,15 @@ ReactDOM.render(
         <React.StrictMode>
             <App />
         </React.StrictMode>
-        <h1 contentEditable="true">{`Welcome ${fname} ${lname}`}</h1>
+        <h1 contentEditable="true" className="heading" >{`Welcome ${fname} ${lname}`}</h1>
         <p>today date is : {d}</p>
         <p>current time is : {t}</p>
-        <img src={pic1} alt="randomimage"/>
-        <img src={pic2} alt="randomimage"/>
+        <img className="img" src={pic1} alt="randomimage"/>
+        <img className="img" src={pic2} alt="randomimage"/>
         <a href={link} target="_blank" rel="">
-            <img src={pic3} alt="randomimage"/>
+            <img className="img" src={pic3} alt="randomimage"/>
         </a>
-        <img src={pic4} alt="randomimage"/>
+        <img className="img" src={pic4} alt="randomimage"/>
 
     </>,
     document.getElementById('root')
