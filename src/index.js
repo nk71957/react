@@ -10,6 +10,7 @@ var t =new Date().toLocaleTimeString();
 const pic1 ="https://picsum.photos/200/300";
 const pic2 ="https://picsum.photos/250/300";
 const pic3 ="https://picsum.photos/270/300";
+const pic4 ="https://picsum.photos/290/300";
 const link ="https://google.com";
 ReactDOM.render(
     <>
@@ -24,6 +25,7 @@ ReactDOM.render(
         <a href={link} target="_blank" rel="">
             <img src={pic3} alt="randomimage"/>
         </a>
+        <img src={pic4} alt="randomimage"/>
 
     </>,
     document.getElementById('root')
